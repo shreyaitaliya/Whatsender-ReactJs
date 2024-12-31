@@ -407,3 +407,361 @@ export const SchedualData = [
         "scheduleDate": "30-December-2024"
     }
 ]
+
+export const MessageData = [
+    {
+        "user": "rCloud Softwares",
+        "messageFrom": "HIDDEN FOR DEMO",
+        "messageTo": "HIDDEN FOR DEMO",
+        "messageType": "Plain Text",
+        "requestType": "chatbot",
+        "createdAt": "30-December-2024",
+    },
+    {
+        "user": "abdiwahid",
+        "messageFrom": "HIDDEN FOR DEMO",
+        "messageTo": "HIDDEN FOR DEMO",
+        "messageType": "Plain Text",
+        "requestType": "single-send",
+        "createdAt": "30-December-2024",
+    },
+    {
+        "user": "abdiwahid",
+        "messageFrom": "HIDDEN FOR DEMO",
+        "messageTo": "HIDDEN FOR DEMO",
+        "messageType": "Plain Text",
+        "requestType": "chatbot",
+        "createdAt": "30-December-2024",
+    },
+    {
+        "user": "abdiwahid",
+        "messageFrom": "HIDDEN FOR DEMO",
+        "messageTo": "HIDDEN FOR DEMO",
+        "messageType": "Plain Text",
+        "requestType": "chatbot",
+        "createdAt": "30-December-2024",
+    },
+    {
+        "user": "abdiwahid",
+        "messageFrom": "HIDDEN FOR DEMO",
+        "messageTo": "HIDDEN FOR DEMO",
+        "messageType": "Plain Text",
+        "requestType": "chatbot",
+        "createdAt": "30-December-2024",
+    },
+    {
+        "user": "ammdukan",
+        "messageFrom": "HIDDEN FOR DEMO",
+        "messageTo": "HIDDEN FOR DEMO",
+        "messageType": "Plain Text",
+        "requestType": "single-send",
+        "createdAt": "30-December-2024",
+    },
+    {
+        "user": "ammdukan",
+        "messageFrom": "HIDDEN FOR DEMO",
+        "messageTo": "HIDDEN FOR DEMO",
+        "messageType": "Plain Text",
+        "requestType": "single-send",
+        "createdAt": "30-December-2024",
+    },
+    {
+        "user": "test125",
+        "messageFrom": "HIDDEN FOR DEMO",
+        "messageTo": "HIDDEN FOR DEMO",
+        "messageType": "Plain Text",
+        "requestType": "bulk-message",
+        "createdAt": "30-December-2024",
+    },
+    {
+        "user": "test125",
+        "messageFrom": "HIDDEN FOR DEMO",
+        "messageTo": "HIDDEN FOR DEMO",
+        "messageType": "Plain Text",
+        "requestType": "bulk-message",
+        "createdAt": "30-December-2024",
+    },
+    {
+        "user": "test125",
+        "messageFrom": "HIDDEN FOR DEMO",
+        "messageTo": "HIDDEN FOR DEMO",
+        "messageType": "Plain Text",
+        "requestType": "bulk-message",
+        "createdAt": "30-December-2024",
+    },
+    {
+        "user": "test125",
+        "messageFrom": "HIDDEN FOR DEMO",
+        "messageTo": "HIDDEN FOR DEMO",
+        "messageType": "Plain Text",
+        "requestType": "bulk-message",
+        "createdAt": "30-December-2024",
+    }
+]
+
+export const NotificationData = [
+    {
+        "title": "Subscription revenueal notice",
+        "comment": "Your subscription will end soon the due date is Ja...",
+        "user": "teste",
+        "seen": "UNREAD",
+        "createdAt": "30-December-2024",
+    },
+    {
+        "title": "Subscription revenueal notice",
+        "comment": "Your subscription will end soon the due date is Ja...",
+        "user": "Douglas",
+        "seen": "UNREAD",
+        "createdAt": "26-December-2024",
+    },
+    {
+        "title": "Subscription revenueal notice",
+        "comment": "Your subscription will end soon the due date is Oc...",
+        "user": "pivar",
+        "seen": "UNREAD",
+        "createdAt": "25-September-2024",
+    },
+    {
+        "title": "(0000386) Subscription order is approved",
+        "comment": "",
+        "user": "Admin",
+        "seen": "UNREAD",
+        "createdAt": "21-September-2024",
+    },
+    {
+        "title": "You have been assigned to a new plan (Enterprise)",
+        "comment": "",
+        "user": "Lakshan De Mel",
+        "seen": "UNREAD",
+        "createdAt": "12-September-2024",
+    },
+    {
+        "title": "You have been assigned to a new plan (Enterprise)",
+        "comment": "",
+        "user": "Lakshan De Mel",
+        "seen": "UNREAD",
+        "createdAt": "12-September-2024",
+    },
+    {
+        "title": "(0000381) Subscription order is approved",
+        "comment": "",
+        "user": "oioioi",
+        "seen": "UNREAD",
+        "createdAt": "10-September-2024",
+    },
+    {
+        "title": "(0000018) Subscription order is declined",
+        "comment": "",
+        "user": "nini",
+        "seen": "UNREAD",
+        "createdAt": "07-September-2024",
+    },
+    {
+        "title": "(0000374) Subscription order is approved",
+        "comment": "",
+        "user": "hellome",
+        "seen": "UNREAD",
+        "createdAt": "07-September-2024",
+    },
+    {
+        "title": "(0000378) Subscription order is approved",
+        "comment": "",
+        "user": "Prashant Singh...",
+        "seen": "UNREAD",
+        "createdAt": "05-September-2024",
+    }
+]
+
+export const BlogData = [
+    {
+        "title": "Why ChatGPT Cannot R...",
+        "url": "https://whatsender.amcoders.com/blog/why-chatgpt-c...",
+        "status": "ACTIVE",
+        "createdAt": "March-06-2023",
+        "thumbnail": "small_thumbnail_image_1"
+    },
+    {
+        "title": "Click to Chat ads on...",
+        "url": "https://whatsender.amcoders.com/blog/click-to-chat...",
+        "status": "ACTIVE",
+        "createdAt": "March-06-2023",
+        "thumbnail": "small_thumbnail_image_2"
+    },
+    {
+        "title": "Boost your business...",
+        "url": "https://whatsender.amcoders.com/blog/boost-your-bu...",
+        "status": "ACTIVE",
+        "createdAt": "March-06-2023",
+        "thumbnail": "small_thumbnail_image_3"
+    }
+]
+
+export const CategoryData = [
+    {
+        "name": "Location message",
+        "slug": "location-message",
+        "language": "en",
+        "status": "ACTIVE",
+        "createdat": "March-06-2023"
+    },
+    {
+        "name": "Template message",
+        "slug": "template-message",
+        "language": "en",
+        "status": "ACTIVE",
+        "createdat": "March-06-2023"
+    },
+    {
+        "name": "Button message",
+        "slug": "button-message",
+        "language": "en",
+        "status": "ACTIVE",
+        "createdat": "March-06-2023"
+    },
+    {
+        "name": "Target marketing",
+        "slug": "target-marketing",
+        "language": "en",
+        "status": "ACTIVE",
+        "createdat": "March-06-2023"
+    },
+    {
+        "name": "Chatbot",
+        "slug": "chatbot",
+        "language": "en",
+        "status": "ACTIVE",
+        "createdat": "March-06-2023"
+    }
+]
+
+export const TagData = [
+    {
+        "name": "chatbot",
+        "slug": "chatbot",
+        "uses_for_blog": "1",
+        "status": "ACTIVE",
+        "created_at": "March-06-2023",
+        "action": "Action"
+    },
+    {
+        "name": "whatsapp",
+        "slug": "whatsapp",
+        "uses_for_blog": "3",
+        "status": "ACTIVE",
+        "created_at": "March-06-2023",
+        "action": "Action"
+    },
+    {
+        "name": "marketing",
+        "slug": "marketing",
+        "uses_for_blog": "1",
+        "status": "ACTIVE",
+        "created_at": "March-06-2023",
+        "action": "Action"
+    },
+    {
+        "name": "support",
+        "slug": "support",
+        "uses_for_blog": "0",
+        "status": "ACTIVE",
+        "created_at": "March-06-2023",
+        "action": "Action"
+    }
+]
+
+export const FaqData = [
+    {
+        "question": "Free 10 Days Trial",
+        "answer": "WASender has supported free 10 days trial. You don't need to add credit...",
+        "language": "en"
+    },
+    {
+        "question": "Do I need a credit card to sign up?",
+        "answer": "No you can simply register with your email",
+        "language": "en"
+    },
+    {
+        "question": "Automatically sync in real time",
+        "answer": "WASender is the best quaint james bond victoria sponge happy days...",
+        "language": "en"
+    },
+    {
+        "question": "How will it take impact for Food?",
+        "answer": "Revolutionize your restaurant operations with WhatsApp-based ordering...",
+        "language": "en"
+    },
+    {
+        "question": "Financial Services",
+        "answer": "Boost digital finance adoption with instant balance inquiries, portfol...",
+        "language": "en"
+    },
+    {
+        "question": "Do you offer a 30-day money-back guarantee?",
+        "answer": "Yes, If you are unhappy with our service, we offer 30 days money-back...",
+        "language": "en"
+    },
+    {
+        "question": "Do I need a credit card to sign up?",
+        "answer": "No, you only need an email to sign up.",
+        "language": "en"
+    },
+    {
+        "question": "Why does your business need a chatbot?",
+        "answer": "A chatbot is always available to serve your customer 24/7. A chatbot...",
+        "language": "en"
+    }
+]
+
+export const FeatureData = [
+    {
+        "title": "RESET API for App",
+        "description": "Representational state transfer is a software arch...",
+        "language": "en"
+    },
+    {
+        "title": "Bulk message",
+        "description": "WA Bulk messaging is the dissemination of large nu...",
+        "language": "en"
+    },
+    {
+        "title": "Schedule message",
+        "description": "WhatsApp users can schedule posts on the app to pl...",
+        "language": "en"
+    },
+    {
+        "title": "Auto Responder (BOT)",
+        "description": "If you are looking for how to set auto-reply in Wh...",
+        "language": "en"
+    },
+    {
+        "title": "Actions buttons",
+        "description": "WhatsApp lets you add buttons to message templates...",
+        "language": "en"
+    },
+    {
+        "title": "Template messaging",
+        "description": "Create multistage campaigns in just a few clicks a...",
+        "language": "en"
+    }
+]
+
+export const TestimonialData = [
+    {
+        "reviewer_name": "Clinton Ramosup",
+        "reviewer_position": "Freelancer",
+        "comment": "Lorem Ipsum is simply dummy text of the printing a...",
+        "rating": "5 Star"
+    },
+    {
+        "reviewer_name": "Mary",
+        "reviewer_position": "Digital Marketer",
+        "comment": "It is a long established fact that a reader will b...",
+        "rating": "5 Star"
+    },
+    {
+        "reviewer_name": "Keith Powers",
+        "reviewer_position": "Developer",
+        "comment": "Contrary to popular belief, Lorem Ipsum is not sim...",
+        "rating": "5 Star"
+    }
+]

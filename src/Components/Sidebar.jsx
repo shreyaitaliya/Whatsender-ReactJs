@@ -106,7 +106,7 @@ const Sidebar = () => {
                     Messages
                 </a>
 
-                <a href="#" className="nav-link d-flex align-items-center" style={{ color: '#32325D' }}>
+                <a href="/notification" className="nav-link d-flex align-items-center" style={{ color: '#32325D' }}>
                     <i class="fa-regular fa-bell me-2"></i>
                     Notification
                 </a>
@@ -132,23 +132,23 @@ const Sidebar = () => {
                         <i className={`bi bi-chevron-${openMenus.charts ? 'down' : 'right'} ms-2`}></i>
                     </a>
                     <div className={`ms-3 ${openMenus.charts ? 'show' : 'd-none'}`}>
-                        <a href="/setting" className="nav-link text-secondary">Blogs</a>
-                        <a href="/setting" className="nav-link text-secondary">Category</a>
-                        <a href="/setting" className="nav-link text-secondary">Tags</a>
+                        <a href="/blog" className="nav-link text-secondary">Blogs</a>
+                        <a href="/category" className="nav-link text-secondary">Category</a>
+                        <a href="/tag" className="nav-link text-secondary">Tags</a>
                     </div>
                 </div>
 
-                <a href="#" className="nav-link d-flex align-items-center" style={{ color: '#32325D' }}>
+                <a href="/faq" className="nav-link d-flex align-items-center" style={{ color: '#32325D' }}>
                     <i class="fa-regular fa-circle-question me-2"></i>
                     Faq
                 </a>
 
-                <a href="#" className="nav-link d-flex align-items-center" style={{ color: '#32325D' }}>
+                <a href="/feature" className="nav-link d-flex align-items-center" style={{ color: '#32325D' }}>
                     <i class="fa-solid fa-dice me-2"></i>
                     Features
                 </a>
 
-                <a href="#" className="nav-link d-flex align-items-center" style={{ color: '#32325D' }}>
+                <a href="/testimonial" className="nav-link d-flex align-items-center" style={{ color: '#32325D' }}>
                     <i class="fa-regular fa-comment me-2"></i>
                     Testimonial
                 </a>

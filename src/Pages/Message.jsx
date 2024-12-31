@@ -1,4 +1,5 @@
 import React from 'react'
+import { MessageData } from '../Utils/Util'
 
 function Message() {
     return (
@@ -54,6 +55,57 @@ function Message() {
                 </div>
             </div>
             {/* box End */}
+
+            {/* table start */}
+            <div className="container mt-4">
+                <div className='d-flex justify-content-between align-items-center justify-content-center' style={{ backgroundColor: 'white' }}>
+                    <h4 style={{ color: '#57584E' }} className='m-3'>Message</h4>
+                    <div>
+                        <input type="text" placeholder='Search....' className='m-3' style={{ backgroundColor: '#FAFAFA', border: '0', padding: '10px' }} />
+                    </div>
+                </div>
+                <table className="table">
+                    <thead>
+                        <tr>
+                            <th style={{ backgroundColor: 'transparent', color: '#212529' }}>User</th>
+                            <th style={{ backgroundColor: 'transparent', color: '#212529' }}>Message Form</th>
+                            <th style={{ backgroundColor: 'transparent', color: '#212529' }}>MessageTo</th>
+                            <th style={{ backgroundColor: 'transparent', color: '#212529' }}>Message Type</th>
+                            <th style={{ backgroundColor: 'transparent', color: '#212529' }}>Request Type</th>
+                            <th style={{ backgroundColor: 'transparent', color: '#212529' }}>CreatedAt</th>
+                            <th style={{ backgroundColor: 'transparent', color: '#212529' }}>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody style={{ fontSize: '14px', color: '#212529' }}>
+                        {MessageData.map((message) => (
+                            <tr key={message.id}>
+                                <td style={{ padding: '16px' }}>{message.user}</td>
+                                <td style={{ padding: '16px' }}>
+                                    <span className="badge p-2" style={{backgroundColor:'#FEE6E0',color:'#FF3709'}}>{message.messageFrom}</span>
+                                </td>
+                                <td style={{ padding: '16px' }}>
+                                <span className="badge p-2" style={{backgroundColor:'#FEE6E0',color:'#FF3709'}}>{message.messageTo}</span>
+                                </td>
+                                <td style={{ padding: '16px' }}>{message.messageType}</td>
+                                <td style={{ padding: '16px' }}>{message.requestType}</td>
+                                <td style={{ padding: '16px' }}>{message.createdAt}</td>
+                                <td style={{ padding: '16px' }}>
+                                    <button className="btn px-2 py-1" style={{ fontSize: '14px', color: '#CED4DA' }} ><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                                    {/* {isMenuOpen && (
+                                                                            <div className="menu" style={{ position: 'absolute', top: '40px', left: '0' }}>
+                                                                                <ul style={{ listStyle: 'none', padding: 0 }}>
+                                                                                    <li><button>Remove</button></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        )} */}
+                                </td>
+                            </tr>
+                        ))}
+                    </tbody>
+
+                </table>
+            </div>
+            {/* table end */}
 
         </div>
     )

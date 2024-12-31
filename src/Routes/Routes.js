@@ -13,6 +13,16 @@ import Contacts from '../Pages/Contacts';
 import Templates from '../Pages/Templates';
 import Schedual from '../Pages/Schedual';
 import Message from '../Pages/Message';
+import Notification from '../Pages/Notification';
+import Blog from '../Pages/Blog';
+import Blogcreate from '../Pages/Blogcreate';
+import Category from '../Pages/Category';
+import Tag from '../Pages/Tag';
+import Faq from '../Pages/Faq';
+import Feature from '../Pages/Feature';
+import Addfeature from '../Pages/Addfeature';
+import Editfeature from '../Pages/Editfeature';
+import Testimonial from '../Pages/Testimonial';
 
 const Routes = () => {
     return (
@@ -40,6 +50,26 @@ const Routes = () => {
                 <Route path='/schedual' element={<Schedual />} />
 
                 <Route path='/message' element={<Message />} />
+
+                <Route path='/notification' element={<Notification />} />
+
+                <Route path='/blog' element={<Blog />} />
+
+                <Route path='/create_blog' element={<Blogcreate />} />
+
+                <Route path='/category' element={<Category />} />
+
+                <Route path='/tag' element={<Tag />} />
+
+                <Route path='/faq' element={<Faq />} />
+
+                <Route path='/feature' element={<Feature />} />
+
+                <Route path='/add_feature' element={<Addfeature />} />
+
+                <Route path='/edit_feature' element={<Editfeature />} />
+
+                <Route path='/testimonial' element={<Testimonial />} />
 
             </Route >
 
