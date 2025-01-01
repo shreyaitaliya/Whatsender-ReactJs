@@ -23,6 +23,11 @@ import Feature from '../Pages/Feature';
 import Addfeature from '../Pages/Addfeature';
 import Editfeature from '../Pages/Editfeature';
 import Testimonial from '../Pages/Testimonial';
+import Team from '../Pages/Team';
+import Addteam from '../Pages/Addteam';
+import Editteam from '../Pages/Editteam';
+import Partner from '../Pages/Partner';
+import Language from '../Pages/Language';
 
 const Routes = () => {
     return (
@@ -70,6 +75,16 @@ const Routes = () => {
                 <Route path='/edit_feature' element={<Editfeature />} />
 
                 <Route path='/testimonial' element={<Testimonial />} />
+
+                <Route path='/team' element={<Team />} />
+
+                <Route path='/add_team' element={<Addteam />} />
+
+                <Route path='/edit_team' element={<Editteam />} />
+
+                <Route path='/partner' element={<Partner />} />
+
+                <Route path='/language' element={<Language />} />
 
             </Route >
 

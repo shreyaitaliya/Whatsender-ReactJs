@@ -26,9 +26,9 @@ function Login() {
                                     placeholder="Enter your password"
                                 />
                             </div>
-                            <button type="submit" className="btn-submit">
+                            <a href="/dashboard"><button type="submit" className="btn-submit">
                                 SIGN UP
-                            </button>
+                            </button></a>
                         </form>
                         <p>
                             Dont have an account? <a href="/register">Sign in</a>
@@ -44,3 +44,4 @@ function Login() {
 }
 
 export default Login
+

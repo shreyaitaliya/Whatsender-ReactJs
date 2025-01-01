@@ -765,3 +765,105 @@ export const TestimonialData = [
         "rating": "5 Star"
     }
 ]
+
+export const TeamData = [
+    {
+        "name": "Rhonda Ortiz",
+        "position": "Founder & CO",
+        "status": "ACTIVE",
+    },
+    {
+        "name": "Eleanor Pena",
+        "position": "Head of Design",
+        "status": "ACTIVE",
+    },
+    {
+        "name": "Bessie Cooper",
+        "position": "VP People",
+        "status": "ACTIVE",
+    },
+    {
+        "name": "Darlene Robertson",
+        "position": "Product Manager",
+        "status": "ACTIVE",
+    }
+]
+
+export const PartnerData = [
+    {
+        "image": "magento_logo",
+        "url": "#",
+        "type": "integration",
+        "status": "ACTIVE",
+        "createdAt": "April-09-2023"
+    },
+    {
+        "image": "prestashop_logo",
+        "url": "#",
+        "type": "integration",
+        "status": "ACTIVE",
+        "createdAt": "April-09-2023"
+    },
+    {
+        "image": "node_logo",
+        "url": "#",
+        "type": "integration",
+        "status": "ACTIVE",
+        "createdAt": "April-09-2023"
+    },
+    {
+        "image": "wix_logo",
+        "url": "#",
+        "type": "integration",
+        "status": "ACTIVE",
+        "createdAt": "April-09-2023"
+    },
+    {
+        "image": "wordpress_logo",
+        "url": "#",
+        "type": "integration",
+        "status": "ACTIVE",
+        "createdAt": "April-09-2023"
+    },
+    {
+        "image": "shopify_logo",
+        "url": "#",
+        "type": "integration",
+        "status": "ACTIVE",
+        "createdAt": "April-09-2023"
+    },
+    {
+        "image": "woocommerce_logo",
+        "url": "#",
+        "type": "integration",
+        "status": "ACTIVE",
+        "createdAt": "April-09-2023"
+    },
+    {
+        "image": "zoom_logo",
+        "url": "#",
+        "type": "Partner",
+        "status": "ACTIVE",
+        "createdAt": "March-06-2023"
+    },
+    {
+        "image": "dropbox_logo",
+        "url": "#",
+        "type": "Partner",
+        "status": "ACTIVE",
+        "createdAt": "March-06-2023"
+    },
+    {
+        "image": "zoom_logo_2",
+        "url": "#",
+        "type": "Partner",
+        "status": "ACTIVE",
+        "createdAt": "March-06-2023"
+    }
+]
+
+export const LanguageData = [
+    {
+        "name": "English"
+    }
+]

@@ -153,7 +153,7 @@ const Sidebar = () => {
                     Testimonial
                 </a>
 
-                <a href="#" className="nav-link d-flex align-items-center" style={{ color: '#32325D' }}>
+                <a href="/team" className="nav-link d-flex align-items-center" style={{ color: '#32325D' }}>
                     <i class="fa-solid fa-users me-2"></i>
                     Team
                 </a>
@@ -163,12 +163,12 @@ const Sidebar = () => {
                     About Us
                 </a>
 
-                <a href="#" className="nav-link d-flex align-items-center" style={{ color: '#32325D' }}>
+                <a href="/partner" className="nav-link d-flex align-items-center" style={{ color: '#32325D' }}>
                     <i class="fa-solid fa-meteor me-2"></i>
                     patners
                 </a>
 
-                <a href="#" className="nav-link d-flex align-items-center" style={{ color: '#32325D' }}>
+                <a href="/language" className="nav-link d-flex align-items-center" style={{ color: '#32325D' }}>
                     <i class="fa-solid fa-language me-2"></i>
                     Language
                 </a>
